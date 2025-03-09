@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0077cc;
+}
+
+.about-container {
+    max-width: 500px; /* Sets a fixed width for both the image and text */
+    margin: 40px auto; /* Centers the entire section */
+    text-align: left;
+}
+
+.profile-pic {
+    width: 100%; /* Makes the image as wide as the text */
+    height: auto; /* Keeps original proportions */
+    display: block;
+    margin-bottom: 20px; /* Adds space between image and text */
+}
+
+.about-text {
+    text-align: left; /* Ensures the text stays aligned left */
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.8em;
+    color: gray;
+}
